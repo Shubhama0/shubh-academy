@@ -1,0 +1,125 @@
+ #about-home {
+    background-image: url("img/back2.jpg");
+    
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    /* padding: 40px; */
+        }
+
+        #about-home h2{
+            color: rgb(23, 3, 93);
+            font-size: 70px;
+            letter-spacing: 1px;
+            text-shadow: 4px 4px rgb(201, 215, 9);
+        }
+
+        #contact{
+padding: 8vw;
+display: flex;
+justify-content: space-between;
+align-items: self-start;
+
+        }
+
+        #contact .connect{
+           width: 350px ;
+        }
+
+        #contact .connect .details div{
+            display: flex;
+
+        }
+        #contact .connect .details div .get{
+            font-size: 16px;
+            color: darkblue;
+            margin-right: 20px;
+
+        }
+
+  #contact .connect h2{
+color: darkblue;
+font-size: 35px;
+font-weight: 800;
+  }     
+  
+  #contact .connect p{
+color: rgb(58, 57, 57);
+margin-bottom: 30px;
+padding-bottom: 20px;
+/* border-bottom: 1px solid rgb(215, 210, 210); */
+  }
+
+  #contact .connect h3{
+    color: rgb(58, 57, 57);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    
+      }
+
+      #contact .form{
+        width: 50%;
+        background: rgb(219, 231, 238);
+        padding: 40px;
+        border-radius: 15px;
+     }
+     #contact .form h3{
+        font-size: 26px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+     }
+
+     #contact .form .fm-row{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+     }
+
+     #contact .form .fm-row input{
+font-size: 14px;
+font-weight: 400;
+        width: 45%;
+        background: white;
+        border :1px solid yellow;
+        outline: none;
+        padding: 18px 20px;
+        margin-bottom: 20px;
+   
+     }
+     #contact .form .fm-col input,
+     #contact .form .fm-col textarea{
+        font-size: 14px;
+        font-weight: 400;
+                width: 100%;
+                background: white;
+                border :1px solid yellow;
+                outline: none;
+                padding: 18px 20px;
+                margin-bottom: 20px;
+        
+                
+             }
+
+             #contact .form button{
+                font-size: 1rem;
+                font-weight: 600;
+                padding: 13px 25px ;
+                color: darkblue;
+                border-radius: 10px ;
+                background-color: yellow;
+                outline: none;
+                cursor: pointer;
+             }
+
+             #contact .form button:hover{
+                background-color: darkblue;
+                color: white;
+             }
